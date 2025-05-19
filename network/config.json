@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://postimg.cc/dLMyrfNc",
+    "link": "",
+    "text": "Kelsey Kiano"
+  },
+  "text": {
+    "more": "This network visualization maps the connections between influential design entities across different countries and time periods. The data is structured to show relationships between designers, manufacturers, schools, countries, companies, exhibitions, and design movements. Nodes are color-coded by type, with edge weights representing the strength of relationships. Use the search function to find specific entities, and hover over nodes to see their connections highlighted while other elements dim.",
+    "intro": "Brought to you from the Analysis from 3 Main MoMA Exhibitions on Mid-century movement; MoMA Good Design Exhibition (1950-1955), MoMA Designing Modern Women (1890-1990), and Counter Space (2010-2011)",
+    "title": "Mid-Century Design Connection"
+  },
+  "legend": {
+    "edgeLabel": "Relationship",
+    "colorLabel": "Type",
+    "nodeLabel": "Label"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "gender",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
